@@ -1,0 +1,67 @@
+html {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: roboto;
+    background-color: black;
+}
+
+body{
+    background-color: white;
+}
+.main{
+    color: solid white;
+    width: 400px;
+    height: 500px;
+   
+}
+.top {
+    display: flex;
+    flex-direction: row;
+}
+.top-inner{
+    align-items: center;
+}
+
+#html-icon {
+    margin-top: 25px; 
+    margin-left: 15px;
+    margin-right: 15px;
+}
+#html-text{
+   line-height: 1;
+   padding-top: 4px;
+}
+#ellipsis{
+    padding-left:68%;
+    padding-top: 25px;
+}
+.icons:nth-child(4){
+    margin-right: 30px;
+}
+
+.icons {
+  display: flex;
+  flex-direction: row;
+  padding-top: 15px;
+  padding-bottom: 8px;
+}
+.icons i:nth-child(-n+3){
+    padding-left: 10px;
+}
+
+#bookmark{
+    padding-left: 65%;
+}
+
+.text{
+    font-size: 14px;
+    padding: 5px 8px 0px 10px;
+}
+
+img {
+    width: 400px;
+    height: 250px
+}
